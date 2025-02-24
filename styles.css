@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://media1.tenor.com/images/c5a4ce795253cfcc0128ad0d54df2223/tenor.gif?itemid=14105333') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Add a slight white background to make content readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 640px;
+    height: 480px;
+    border: 2px solid #333;
+}
+
+#photos {
+    margin-top: 20px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+#heartButton {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heart-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heart-button:hover {
+    background-color: #ff4c4c;
+}
+
+#collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background: url('https://static.vecteezy.com/system/resources/previews/020/737/052/non_2x/aesthetic-boho-floral-frame-cute-pastel-border-for-card-design-wedding-digital-print-scrapbook-teacher-elements-postcard-poster-and-more-vector.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#collage h2 {
+    color: #ff69b4; /* Hot pink */
+}
+
+#collagePhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#collagePhotos img {
+    width: 30%;
+    margin: 5px;
+    border-radius: 5px;
+}
